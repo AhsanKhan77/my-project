@@ -94,38 +94,39 @@
     </div>
   </div>
 
-  <script src="assets/js/login.js"></script>
-
-  <script>
-    function validateSignup() {
-      var username = document.getElementById("usernameup").value;
-      var email = document.getElementById("emailup").value;
-      var password = document.getElementById("passwordup").value;
-
-      if (username === "" || email === "" || password === "") {
-        alert("Please fill in all the details given below!");
-        return false;
-      } else {
-        alert("Congratulations, Your Account has been Created!");
-        return true;
-      }
-    }
-
-    function validateSignin() {
-      var username = document.getElementById("username").value;
-      var password = document.getElementById("password").value;
-
-      if (username === "" || password === "") {
-        alert("Please fill in both Username and Password!");
-        return false;
-      } else {
-        alert("Sign in Successful!");
-        return true;
-      }
-    }
-  </script>
-  
-  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>
+<script src="assets/js/login.js"></script>
+
+<script>
+  function validateSignup() {
+    var username = document.getElementById("usernameup").value;
+    var email = document.getElementById("emailup").value;
+    var password = document.getElementById("passwordup").value;
+
+    if (username === "" || email === "" || password === "") {
+      alert("Please fill in all the details given below!");
+      return false;
+    } else {
+      alert("Congratulations, Your Account has been Created!");
+      return true;
+    }
+  }
+
+  function validateSignin() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "" || password === "") {
+      alert("Please fill in both Username and Password!");
+      return false;
+    } else {
+      alert("Sign in Successful!");
+      return true;
+    }
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
